@@ -135,7 +135,7 @@
                 });
 
                 videoElement.src = '';
-                videoElement.poster = '/ajax-loader.gif';
+                videoElement.poster = '/images/cloud.gif';
 
                 xhr('/uploadFile', file, function(responseText) {
                     var fileURL = JSON.parse(responseText).fileURL;
